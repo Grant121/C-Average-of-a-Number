@@ -1,0 +1,26 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Help me with my project!");
+		
+		int num01; //takes the first of the 3 variables
+		int num02;
+		int num03;
+		
+		Console.Write("Input a number:"); 
+		num01 = Convert.ToInt32(Console.ReadLine()); //converts from string to int
+		
+		Console.Write("Input a second numer:");
+		num02 = Convert.ToInt32(Console.ReadLine());
+		
+		Console.Write("Input a third number:");
+		num03 = Convert.ToInt32(Console.ReadLine());
+		
+		int result = (num01 + num02 + num03) / 3; //adding all the numbers then dividing by 3 for average
+		Console.WriteLine("The Average is:" + result); 
+
+	}
+}
